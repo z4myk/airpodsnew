@@ -14,7 +14,23 @@
 :root {
   --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Raleway",  sans-serif;
-  --nav-font: "Roboto",  sans-serif;
+  --nav-font: "SharpGrotesk",  sans-serif;
+}
+
+@font-face{
+  font-family: 'SharpGrotesk';
+  src:url(/fuentes//Sharp_Grotesk/SharpGrotesk-SemiBold15.otf);
+  
+}
+h2{
+  font-family: 'SharpGrotestk';
+  src:url(/fuentes//Sharp_Grotesk/SharpGrotesk-SemiBold15.otf);
+}
+
+h1{
+  font-family: 'SharpGrotestk';
+  src:url(/fuentes//Sharp_Grotesk/SharpGrotesk-Bold15.otf);
+  font-weight: bold !important;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
@@ -53,7 +69,7 @@
 }
 
 .accent-background {
-  --background-color: #5846f9;
+  --background-color: #202020;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --accent-color: #ffffff;
@@ -1850,16 +1866,42 @@ section,
 
 
 .imagenAirpod{
-  width: 1000px !important;
+  width: 800px !important;
 }
 
 
 
 .textoTitulo{
   color: black;
+ 
 }
 
 
 .tituloPrincipal{
-  text-shadow: 3px 3px 0px #00adff;
+  font-size: 80px !important;
+  text-shadow: 0px -4px 0px #83FFFF;
 }
+
+.tituloCaracteristicas{
+  font-size: 40px;
+}
+
+.iconoCaracteristicas{
+  width: 50px;
+}
+
+.iconoCaracteristicasDerecha{
+  width: 80px;
+}
+.iconoGotaDerecha{
+  width: 35px;
+  margin-right: 50px;
+}
+
+.subtituloSonido{
+  text-shadow: 0px -2px 0px #83FFFF;
+  font-weight: bold;
+  font-size: 40px !important;
+
+}
+
